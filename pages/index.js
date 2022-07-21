@@ -37,8 +37,15 @@ return (
       <Head>
           <title>Logoscape</title>
           <meta name="description" content="Logoscape" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="https://ddrscott.github.com/logoscape" />
+          <meta name="twitter:creator" content="@_ddrscott_" />
+          <meta property="og:title" content="Logoscape" />
+          <meta name="twitter:image" content="/card.png" />
+          <meta property="og:image" content="/card.png" />
+          <meta property="og:description" content="All the Logos in one place." />
+          <meta name="description" content="All the logos in one place." />
       </Head>
-
       <main>
           { images.map((img) => card(img)) }
       </main>
